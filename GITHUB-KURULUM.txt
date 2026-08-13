@@ -1,0 +1,33 @@
+DAYIAUTOMOD - GITHUB'TAN JAR ALMA
+=================================
+
+1) GitHub'da yeni bir repository olustur.
+   Ornek: DayiAutoMod
+
+2) Bu projenin tum dosyalarini repository'ye yukle.
+   Ozel olarak sunlar bulunmali:
+   - pom.xml
+   - src/
+   - .github/workflows/build.yml
+
+3) GitHub'da repository -> Actions sekmesine gir.
+
+4) "Build DayiAutoMod" workflow'unu sec.
+
+5) "Run workflow" butonuna bas.
+   Ilk yuklemede otomatik de calisir.
+
+6) Workflow yesil tik ile bittiginde workflow calismasina tikla.
+
+7) Sayfanin alt tarafinda "Artifacts" bolumunde:
+   DayiAutoMod
+   dosyasini goreceksin.
+
+8) Artifact'i indir ve ZIP'ten cikan:
+   DayiAutoMod-1.0.0.jar
+   dosyasini Minecraft sunucunun plugins klasorune at.
+
+NOT:
+- GitHub Actions Java 17 kullanir.
+- Maven'i bilgisayarina kurmana gerek yoktur.
+- GitHub build islemini kendisi yapar.

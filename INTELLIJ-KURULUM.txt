@@ -1,0 +1,37 @@
+DAYIAUTOMOD - INTELLIJ IDEA / MAVEN KURULUMU
+===============================================
+
+Gerekenler:
+- JDK 17
+- IntelliJ IDEA
+- Maven (IntelliJ'nin bundled Maven'i yeterlidir)
+
+1) ZIP dosyasini cikart.
+2) IntelliJ IDEA -> File -> Open
+3) Cikarttigin DayiAutoMod klasorunu sec.
+4) IntelliJ pom.xml dosyasini otomatik Maven projesi olarak tanimalidir.
+5) Sag altta "Load Maven Project" cikarsa tikla.
+6) File -> Project Structure -> SDK -> JDK 17 sec.
+7) Sag taraftaki Maven panelini ac.
+8) Lifecycle -> clean tikla.
+9) Lifecycle -> package tikla.
+10) target klasorunun icindeki:
+       DayiAutoMod-1.0.0.jar
+    dosyasini al.
+11) JAR'i Minecraft sunucunun plugins klasorune koy.
+12) Sunucuyu yeniden baslat.
+
+Komutlar:
+  /otomasyon reload
+  /otomasyon check <mesaj>
+  /otomasyon mute <oyuncu> <dakika>
+  /otomasyon unmute <oyuncu>
+
+Yetkiler:
+  dayiautomod.admin
+  dayiautomod.bypass
+
+NOT:
+1.19.4 Paper/Spigot icin Java 17 kullanman onerilir.
+Kufur listesini plugins/DayiAutoMod/config.yml icindeki
+profanity.words bolumunden doldur.
